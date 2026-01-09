@@ -1,6 +1,6 @@
 {
   "CN": "httpproxy",
-  "hosts": ["localhost", "127.0.0.1"],
+  "hosts": ["localhost", "127.0.0.1", "::1"],
   "key": {
     "algo": "ecdsa",
     "size": 256
