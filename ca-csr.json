@@ -1,6 +1,6 @@
 {
-  "CN": "example.net",
-  "hosts": ["example.net", "www.example.net"],
+  "CN": "httpproxy",
+  "hosts": ["httpproxy", "www.httpproxy"],
   "key": {
     "algo": "ecdsa",
     "size": 256

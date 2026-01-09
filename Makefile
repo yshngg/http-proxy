@@ -7,7 +7,7 @@ ssl:
 	@mkdir -p ./pki
 	@$(CFSSL) gencert -initca ./ca-csr.json | $(CFSSLJSON) -bare ./pki/ca
 	@$(CFSSL) gencert -ca=./pki/ca.pem -ca-key=./pki/ca-key.pem \
-	--config=./ca-config.json -profile=http-proxy \
+	--config=./ca-config.json -profile=httpproxy \
 	./server-csr.json | $(CFSSLJSON) -bare ./pki/server
 
 	# distributing self-signed CA certificate
