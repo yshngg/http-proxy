@@ -7,6 +7,8 @@ tool (
 	github.com/cloudflare/cfssl/cmd/cfssljson
 )
 
+require k8s.io/klog/v2 v2.100.1
+
 require (
 	github.com/cloudflare/cfssl v1.6.5 // indirect
 	github.com/go-logr/logr v1.2.4 // indirect
@@ -25,5 +27,4 @@ require (
 	golang.org/x/net v0.20.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	google.golang.org/protobuf v1.32.0 // indirect
-	k8s.io/klog/v2 v2.100.1 // indirect
 )
