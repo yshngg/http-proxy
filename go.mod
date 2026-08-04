@@ -7,7 +7,10 @@ tool (
 	github.com/cloudflare/cfssl/cmd/cfssljson
 )
 
-require k8s.io/klog/v2 v2.100.1
+require (
+	go.uber.org/goleak v1.3.0
+	k8s.io/klog/v2 v2.100.1
+)
 
 require (
 	github.com/cloudflare/cfssl v1.6.5 // indirect
